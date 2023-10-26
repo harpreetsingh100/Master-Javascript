@@ -9,7 +9,7 @@
 // 3) BigInt
 // 4) Symbol
 // 5) Undefined
-// 6) String
+// 6) Boolean
 // 7) Null
 
 // Non-Primitive (Reference)
