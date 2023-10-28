@@ -9,8 +9,6 @@ let length = text.length;
 // There are many methods we can use with strings like down below
 
 text.slice();
-text.substring();
-text.substr();
 text.replace();
 text.replaceAll();
 text.toUpperCase();
@@ -22,5 +20,27 @@ text.trimEnd();
 text.padStart();
 text.padEnd();
 text.charAt();
-text.charCodeAt();
 text.split();
+text.includes();
+
+// You can also use these methods together. It is called chaining. You can use it like this :-
+
+const newText = text.toUpperCase().trim();
+
+// String Concatenation
+
+const myName = `Happy`;
+const myAge = 22;
+
+// You can add these two with string concatenation.
+
+const myFullName = "Hi my name is" + myName + "and i am " + myAge + "years old";
+
+// Template Literals
+
+const name = `Happy`;
+const age = 22;
+
+// You can add variables in this with ${variable}
+
+const fullName = `Hi my name is ${name} and i am ${age} years old.`;
