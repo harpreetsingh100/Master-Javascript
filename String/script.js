@@ -44,3 +44,8 @@ const age = 22;
 // You can add variables in this with ${variable}
 
 const fullName = `Hi my name is ${name} and i am ${age} years old.`;
+
+// One more thing about strings is that strings are immutable. This means that once a string is created, its contents cannot be changed. Instead you will need to create a new string. Like this :-
+
+let me = "John Doe";
+me = "Jane Doe";
