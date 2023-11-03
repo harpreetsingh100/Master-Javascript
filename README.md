@@ -16,4 +16,3 @@ Switch
 Operations
 Operators precedence
 Assignment Operator
-unary Operator
