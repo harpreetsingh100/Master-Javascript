@@ -15,3 +15,13 @@ function addTwoNumbers(num1, num2) {
 }
 
 addTwoNumbers(5, 5);
+
+// We can give default parameters to functions
+
+const addOneAndTwo = (a, b = 5) => {
+  console.log(a + b);
+};
+
+addOneAndTwo(2);
+
+// You should not use deault parameter for the first parameter.
