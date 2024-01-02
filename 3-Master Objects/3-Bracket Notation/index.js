@@ -10,3 +10,7 @@ console.log(car["color"]);
 // => white
 
 // Bracket Notation does automatically convert keys to strings.
+
+console.log(car[color]);
+
+// Even though we have color in the object but because we are using bracket notation it will take the variable value.
