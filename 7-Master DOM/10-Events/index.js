@@ -7,7 +7,8 @@
 
 // 1.Inline
 
-// <button onclick="function()"> Click</button>s
+// <button onclick="function()"> Click</button>
+// <button onclick="console.log('Hi')"> Click</button>
 
 // 2.In Js
 
