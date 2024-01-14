@@ -1,5 +1,3 @@
-// Asynchronous programming is a technique that enables your program to start a potentially long-running task and still be able to be responsive to other events while that task runs, rather than having to wait until that task has finished.
+// Synchronous => Synchronous means the code runs in a particular sequence of instructions given in the program. Each instruction waits for the previous instruction to complete its execution.
 
-// Javascript is a single threaded language.
-
-// We can block the main thread with alert()
+// Asynchronous => Due to synchronous programming, sometimes important instrcutions get blocked due to the preveious instructions which causes delay in the UI. Asynchronous code allows to execute instructions immediately and doesnt block the flow.
